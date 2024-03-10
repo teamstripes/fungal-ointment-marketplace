@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+marquee {
+	font-size: 20px;
+	font-weight: 700;
+	height: 50px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	/* max elements in a row */
+	justify-content: center;
+	align-items: center;
+	
+}
+.grid-element {
+	background-color: #333;
+	padding: 20px;
+	border-radius: 5px;
+	max-width: 300px;
+	max-width: 300px;
+}
